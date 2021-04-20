@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/styles.css" />
 
   </head>
-  
+
   <body>
     <header>
     <nav>
@@ -20,6 +20,53 @@
         <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
+
+    <main>
+      <section id="home" class="hero-content">
+        <div class="hero-content">
+          <h1>Inspiring goal-getters to share ideas, advice, and support.</h1>
+          <p>This is your home to building your brand and landing the job.</p>
+          <p>This is For the Goal-Getters.</p>
+        </div>
+      </section>
+
+      <section id="home" class="path-section">
+        <div class="path-section">
+          <h2>Choose your path.</h2>
+          <p>Be confident in getting the marketing job by shaping your personal and professional brand.</p>
+          <p> Whether you're making your budget, building your savings, knocking out your debt, or investing in your future, see how financial coaching can help you get there.</p>
+        </div>
+      </section>
+
+      <div class="container">
+        <h2>Let's connect, create and collaborate.</h2>
+        <form class="contact-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="first-name input-section">
+            <label for="firstname" class="label_input_wrap">First Name: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="ex. Efren" />
+          </div>
+
+          <div class="last-name input-section">
+            <label for="lastname" class="label_input_wrap">Last Name: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="ex. Vasquez" />
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email: </label>
+            <input type="email" name="email" id="email" placeholder="ex. e.vasquez@ufl.edu" />
+          </div>
+
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Comments: </label>
+            <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Leave a message."></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="GET IN TOUCH"/>
+          </div>
+        </form>
+      </div>
+    </main>
 
     <footer>
       <p>FOLLOW @FORTHEGOALGETTERS</p>
