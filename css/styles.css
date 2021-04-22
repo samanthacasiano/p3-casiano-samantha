@@ -20,7 +20,6 @@ h2,
 footer {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
-  text-align: center;
 }
 
 h3 {
@@ -60,6 +59,12 @@ header nav a:hover {
  color: #303030;
 }
 
+.contact-button {
+  text-decoration: none;
+  background: white;
+  padding: 5px 15px;
+}
+
 /*=======================================
 
 Hero Styling
@@ -75,6 +80,18 @@ Hero Styling
 .about {
   background: white;
   padding: 50px;
+  text-align: center;
+}
+
+/*=======================================
+
+About Styling
+
+========================================*/
+
+.about-section {
+  background: white;
+  padding: 100px 0;
   text-align: center;
 }
 
