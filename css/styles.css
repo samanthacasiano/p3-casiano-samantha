@@ -39,7 +39,6 @@ Header Styling
 
 header {
  text-align: center;
- text-transform: uppercase;
  background: white;
  padding: 20px 0;
 }
@@ -73,6 +72,20 @@ Hero Styling
   text-align: center;
 }
 
+.about {
+  background: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.left-half {
+  float: left;
+  margin: 10px 50px 50px 50px;
+}
+
+.right-half {
+  float: right;
+}
 /*=======================================
 
 Contact Form Styling
