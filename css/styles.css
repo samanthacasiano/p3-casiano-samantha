@@ -17,18 +17,21 @@ Font Styling
 
 h1,
 h2,
-p,
 footer {
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
+  text-align: center;
 }
-
 
 h3 {
   font: 60px 'RetroSignature';
   src: url('../fonts/RetroSignature.otf')
 }
 
+p {
+  font-family: 'Nunito', sans-serif;
+  text-align: left;
+}
 /*=======================================
 
 Header Styling
@@ -36,6 +39,8 @@ Header Styling
 ========================================*/
 
 header {
+ text-align: center;
+ text-transform: uppercase;
  background: white;
  padding: 20px 0;
 }
@@ -48,12 +53,25 @@ header nav a {
  color: black;
  font-family: 'Nunito'; sans-serif;
  font-size: 24px;
+ text-align: center;
  text-decoration: none;
  margin: 0 20px;
 }
 
 header nav a:hover {
  color: #303030;
+}
+
+/*=======================================
+
+Hero Styling
+
+========================================*/
+
+.hero-section {
+  background: #f8f7f2;
+  padding: 200px 0;
+  text-align: center;
 }
 
 /*=======================================
