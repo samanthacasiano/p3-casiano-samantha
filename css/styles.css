@@ -30,6 +30,7 @@ h3 {
 p {
   font-family: 'Nunito', sans-serif;
 }
+
 /*=======================================
 
 Header Styling
@@ -37,32 +38,26 @@ Header Styling
 ========================================*/
 
 header {
- text-align: center;
- background: white;
- padding: 20px 0;
+   text-align: center;
+   background: white;
+   padding: 20px 0;
 }
 
 header nav ul li {
- display: inline;
+  display: inline;
 }
 
 header nav a {
- color: black;
- font-family: 'Nunito'; sans-serif;
- font-size: 24px;
- text-align: center;
- text-decoration: none;
- margin: 0 20px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito'; sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 20px;
 }
 
 header nav a:hover {
- color: #303030;
-}
-
-.contact-button {
-  text-decoration: none;
-  background: white;
-  padding: 5px 15px;
+  color: #303030;
 }
 
 /*=======================================
@@ -117,6 +112,12 @@ Contact Form Styling
   font-family: sans-serif;
   margin: 20px auto;
   text-align: left;
+}
+
+.contact-button {
+  text-decoration: none;
+  background: white;
+  padding: 5px 15px;
 }
 
 .label_input_wrap {
