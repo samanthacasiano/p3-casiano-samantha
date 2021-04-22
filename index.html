@@ -4,8 +4,12 @@
     <meta charset="utf-8">
     <title></title>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/styles.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
   </head>
 
@@ -41,7 +45,7 @@
       </section>
 
       <div class="container">
-        <h2>Let's connect, create and collaborate.</h2>
+        <h3>Let's connect, create and collaborate.</h3>
         <form class="contact-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
           <div class="first-name input-section">
             <label for="firstname" class="label_input_wrap">First Name: </label>
@@ -74,6 +78,12 @@
       <p>FOLLOW @FORTHEGOALGETTERS</p>
       <div class="social media">
         <a href="https://www.instagram.com/forthegoalgetters" target="_blank"><img src="images/instagram.png" alt="instagram" title="Instagram" /></a>
+
+        <form class="footer-form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email: </label>
+            <input type="email" name="email" id="email" placeholder="ex. e.vasquez@ufl.edu" />
+          </div>
       </div>
     </footer>
   </body>
