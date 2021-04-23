@@ -74,8 +74,12 @@ Hero Styling
 
 .about-hero-section {
   background: #f8f7f2;
-  padding: 200px 0;
-  text-align: center;
+  padding: 100px 0 300px 0;
+  text-align: left;
+}
+
+.about-hero-section img {
+  float: left;
 }
 
 .work-hero-section {
@@ -86,8 +90,12 @@ Hero Styling
 
 .contact-hero-section {
   background: #f8f7f2;
-  padding: 200px 0;
-  text-align: center;
+  padding: 100px 0 300px 0;
+  text-align: left;
+}
+
+.contact-hero-section img{
+  float: left;
 }
 
 .blog-hero-section {
