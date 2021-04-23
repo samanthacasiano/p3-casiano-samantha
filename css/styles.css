@@ -80,6 +80,49 @@ Hero Styling
 
 /*=======================================
 
+Container Styling
+
+========================================*/
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*=======================================
+
+Home Coaching Services Styling
+
+========================================*/
+
+.coaching-services {
+  text-align: center;
+}
+
+.online-marketing-coach {
+  width: 400px;
+  display: inline-block;
+}
+
+.online-finance-coach {
+  width: 400px;
+  display: inline-block;
+}
+
+.coaching {
+  text-align: center;
+}
+.coaching img {
+  width: 400px;
+}
+
+.home-contact {
+  background: #f8f7f2;
+  text-align: center;
+}
+
+/*=======================================
+
 About Styling
 
 ========================================*/
@@ -111,7 +154,7 @@ Contact Form Styling
   border-radius: 4px;
   font-family: sans-serif;
   margin: 20px auto;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-button {
