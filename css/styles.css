@@ -66,12 +66,35 @@ Hero Styling
 
 ========================================*/
 
-.hero-section {
+.home-hero-section {
   background: #f8f7f2;
   padding: 200px 0;
   text-align: center;
 }
 
+.about-hero-section {
+  background: #f8f7f2;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.work-hero-section {
+  background: #f8f7f2;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.contact-hero-section {
+  background: #f8f7f2;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.blog-hero-section {
+  background: #f8f7f2;
+  padding: 200px 0;
+  text-align: center;
+}
 .about {
   background: white;
   padding: 50px;
@@ -102,11 +125,13 @@ Home Coaching Services Styling
 .online-marketing-coach {
   width: 400px;
   display: inline-block;
+  margin: 50px 20px;
 }
 
 .online-finance-coach {
   width: 400px;
   display: inline-block;
+  margin: 150px;
 }
 
 .coaching {
