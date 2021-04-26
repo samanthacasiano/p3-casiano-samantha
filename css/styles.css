@@ -40,7 +40,7 @@ Header Styling
 header {
    text-align: center;
    background: white;
-   padding: 20px 0;
+   padding: 20px 10px;
 }
 
 header nav ul li {
@@ -74,8 +74,8 @@ Hero Styling
 
 .about-hero-section {
   background: #f8f7f2;
-  padding: 100px 0 300px 0;
-  text-align: left;
+  padding: 200px 0;
+  text-align: center;
 }
 
 .about-hero-section img {
@@ -85,12 +85,14 @@ Hero Styling
 .work-hero-section {
   background: #f8f7f2;
   padding: 200px 0;
+  margin: 25px 0 0 0;
   text-align: center;
 }
 
 .contact-hero-section {
   background: #f8f7f2;
   padding: 100px 0 300px 0;
+  margin: 25px 0 0 0;
   text-align: left;
 }
 
@@ -101,6 +103,7 @@ Hero Styling
 .blog-hero-section {
   background: #f8f7f2;
   padding: 200px 0;
+  margin: 25px 0 0 0;
   text-align: center;
 }
 .about {
@@ -126,14 +129,20 @@ Home Coaching Services Styling
 
 ========================================*/
 
+.index-button {
+  color: white;
+  padding: 15px 32px;
+}
+
 .coaching-services {
   text-align: center;
+  margin-top: 100px;
 }
 
 .online-marketing-coach {
   width: 400px;
   display: inline-block;
-  margin: 50px 20px;
+  margin: 10px 20px;
 }
 
 .online-finance-coach {
@@ -166,6 +175,12 @@ About Styling
   text-align: center;
 }
 
+.about-hero-section {
+  background: #f8f7f2;
+  padding: 100px 100px 300px 100px;
+  text-align: left;
+}
+
 .left-half {
   float: left;
   margin: 10px 50px 50px 50px;
@@ -174,6 +189,18 @@ About Styling
 .right-half {
   float: right;
 }
+
+/*=======================================
+
+Blog Styling
+
+========================================*/
+
+.recent-posts {
+  text-align: center;
+  margin-top: 100px;
+}
+
 /*=======================================
 
 Contact Form Styling
