@@ -22,7 +22,8 @@ footer {
   font-weight: 200;
 }
 
-h3 {
+h3,
+h4 {
   font: 60px 'RetroSignature';
   src: url('../fonts/RetroSignature.otf')
 }
@@ -76,10 +77,12 @@ Hero Styling
   background: #f8f7f2;
   padding: 200px 0;
   text-align: center;
+  display: inline-block;
 }
 
 .about-hero-section img {
   float: left;
+  margin: 0 100px 0 0;
 }
 
 .work-hero-section {
@@ -192,6 +195,15 @@ About Styling
 
 /*=======================================
 
+Contact Styling
+
+========================================*/
+
+section.gallery img {
+  width: 350px;
+}
+/*=======================================
+
 Blog Styling
 
 ========================================*/
@@ -199,6 +211,10 @@ Blog Styling
 .recent-posts {
   text-align: center;
   margin-top: 100px;
+}
+
+.interview-blog-image {
+  margin-left: 500px 0;
 }
 
 /*=======================================
