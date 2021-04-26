@@ -75,9 +75,9 @@ Hero Styling
 
 .about-hero-section {
   background: #f8f7f2;
+  margin: 25px 0 0 0;
   padding: 200px 0;
   text-align: center;
-  display: inline-block;
 }
 
 .about-hero-section img {
@@ -174,8 +174,9 @@ About Styling
 
 .about-section {
   background: white;
-  padding: 100px 0;
-  text-align: center;
+  padding: 50px 5px;
+  float: left;
+  text-align: left;
 }
 
 .about-hero-section {
@@ -184,12 +185,7 @@ About Styling
   text-align: left;
 }
 
-.left-half {
-  float: left;
-  margin: 10px 50px 50px 50px;
-}
-
-.right-half {
+.about-image {
   float: right;
 }
 
