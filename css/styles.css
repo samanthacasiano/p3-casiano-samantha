@@ -294,6 +294,10 @@ footer img {
   width: 40px;
 }
 
+.social-media {
+  margin-top: 10px;
+}
+
 @keyframes slide {
   from {
     transform: translateX(-50px);
