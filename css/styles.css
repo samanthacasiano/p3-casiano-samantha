@@ -134,8 +134,11 @@ Home Coaching Services Styling
 ========================================*/
 
 .index-button {
-  color: white;
+  background-color: white;
   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .coaching-services {
@@ -184,6 +187,14 @@ figcaption {
   color: white;
   padding: 2px;
   text-align: center;
+}
+
+.sam-casiano {
+  filter: grayscale(0%);
+}
+
+.sam-casiano:hover {
+  filter: grayscale(100%);
 }
 
 /*=======================================
