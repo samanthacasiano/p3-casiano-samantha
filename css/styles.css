@@ -115,6 +115,16 @@ Hero Styling
   text-align: center;
 }
 
+.pseudo p::selection {
+  background: black;
+  color: white;
+}
+
+.pseudo p:first-child{
+  color: brown;
+  font-weight: bold;
+}
+
 /*=======================================
 
 Container Styling
