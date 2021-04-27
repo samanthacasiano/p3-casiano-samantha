@@ -28,7 +28,9 @@ h4 {
   src: url('../fonts/RetroSignature.otf')
 }
 
-p {
+p,
+li,
+details {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -109,11 +111,6 @@ Hero Styling
   margin: 25px 0 0 0;
   text-align: center;
 }
-.about {
-  background: white;
-  padding: 50px;
-  text-align: center;
-}
 
 .pseudo p::selection {
   background: black;
@@ -182,21 +179,17 @@ About Styling
 
 ========================================*/
 
-.about-section {
-  background: white;
-  padding: 50px 5px;
-  float: left;
-  text-align: left;
-}
-
 .about-hero-section {
   background: #f8f7f2;
   padding: 100px 100px 300px 100px;
   text-align: left;
 }
 
-.about-image {
-  float: right;
+figcaption {
+  background-color: black;
+  color: white;
+  padding: 2px;
+  text-align: center;
 }
 
 /*=======================================
@@ -222,6 +215,7 @@ Blog Styling
 .interview-blog-image {
   margin-left: 500px 0;
 }
+
 
 /*=======================================
 
