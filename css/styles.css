@@ -201,6 +201,20 @@ figcaption {
   filter: grayscale(100%);
 }
 
+
+.college {
+  width: 300px;
+  display: inline-block;
+  padding: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.college img{
+  width: 85%;
+  height: 85%;
+}
+
 /*=======================================
 
 Contact Styling
