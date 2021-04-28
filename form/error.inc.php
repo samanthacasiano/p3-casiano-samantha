@@ -75,9 +75,6 @@
     text-align: left;
   }
 
-  .footer-form {
-    text-align: right;
-  }
   footer img {
     width: 40px;
   }

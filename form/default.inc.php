@@ -75,9 +75,6 @@
     text-align: left;
   }
 
-  .footer-form {
-    text-align: right;
-  }
   footer img {
     width: 40px;
   }
@@ -85,7 +82,7 @@
   .social-media {
     margin-top: 10px;
   }
-  
+
 </style>
 
 <header>
