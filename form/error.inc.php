@@ -14,6 +14,7 @@
   @font-face{
     font-family: "RetroSignature";
     src: url('../fonts/RetroSignature.otf')
+    format('truetype');
   }
 
   h1,
