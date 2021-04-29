@@ -79,6 +79,36 @@ Hero Styling
   text-align: center;
 }
 
+.lets-do-this a {
+  background: white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.get-in-touch a {
+  background: white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+.learn-more a {
+  background: white;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 10px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
 .about-hero-section,
 .work-hero-section {
   background: #f8f7f2;
@@ -92,6 +122,7 @@ Hero Styling
   margin: 0 100px 0 0;
 }
 
+.
 .contact-hero-section {
   background: #f8f7f2;
   padding: 100px 0 300px 0;
@@ -152,13 +183,13 @@ Home Coaching Services Styling
 .online-marketing-coach {
   width: 400px;
   display: inline-block;
-  margin: 10px 20px;
+  margin: 100px 30px;
 }
 
 .online-finance-coach {
   width: 400px;
   display: inline-block;
-  margin: 150px;
+  margin: 100px 30px;
 }
 
 .coaching {
@@ -215,6 +246,11 @@ figcaption {
   height: 100%;
 }
 
+.about-years {
+  text-align: center;
+  margin-top: 100px;
+}
+
 /*=======================================
 
 Work With Me Styling
@@ -234,6 +270,10 @@ Work With Me Styling
   height: 100%;
 }
 
+.offers {
+  text-align: center;
+  margin-top: 100px;
+}
 /*=======================================
 
 Contact Styling
