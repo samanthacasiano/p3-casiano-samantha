@@ -39,6 +39,9 @@ h1 {
   text-transform: uppercase;
 }
 
+h4 {
+  text-align: center;
+}
 /*=======================================
 
 Header Styling
@@ -282,8 +285,9 @@ Contact Styling
 
 ========================================*/
 
-section.gallery img {
-  width: 350px;
+section.gallery img{
+  width: 400px;
+  margin: 50px;
 }
 
 .contact-samantha {
